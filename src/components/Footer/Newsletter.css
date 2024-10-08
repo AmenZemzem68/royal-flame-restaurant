@@ -1,0 +1,87 @@
+.app-newsletter {
+    padding: 2rem 4rem;
+    background: var(--bg);
+}
+
+.app-newsletter-heading {
+    text-align: center;
+}
+
+.app-newsletter-input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center; /* Center content */
+}
+
+.app-newsletter-input input,
+.app-newsletter-input select {
+    width: 50%;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+}
+
+.app-newsletter-input select {
+    appearance: none;
+}
+
+.app-newsletter-input button {
+    width: 30%;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .app-newsletter-input input,
+    .app-newsletter-input select {
+        font-size: 2rem;
+    }
+
+    .app-newsletter-input button {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app-newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app-newsletter-input input,
+    .app-newsletter-input select {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+
+    .app-newsletter-input button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-newsletter {
+        padding: 2rem 1rem;
+    }
+
+    .app-newsletter-input input,
+    .app-newsletter-input select {
+        width: 100%;
+    }
+
+    .app-newsletter-input button {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app-newsletter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}

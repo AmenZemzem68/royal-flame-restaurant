@@ -1,0 +1,51 @@
+.appd-chef-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    margin-top: 5rem;
+}
+
+.appd-chef-content-quote {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.appd-chef-content-quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.appd-chef-sign {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.appd-chef-sign p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+
+.appd-chef-sign img {
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .appd-chef-sign img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .appd-chef-sign img {
+        width: 40%;
+    }
+}
