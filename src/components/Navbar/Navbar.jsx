@@ -78,7 +78,7 @@ const Navbar = () => {
                 <a href="#awards">Awards</a>
               </li>
               <li className="p-opensans">
-                <a href="#contact">Contact</a>
+                <a href="#contact">Reservation</a>
               </li>
             </ul>
           </div>
