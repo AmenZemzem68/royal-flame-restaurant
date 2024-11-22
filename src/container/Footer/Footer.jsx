@@ -9,7 +9,7 @@ const Footer = () => (
     <div className="app-footer-links">
       <div className="app-footer-links-contact">
         <h1 className="app-footer-headtext">Contact Us</h1>
-        <p className="p-opensans">9 Ave Med Najjar, Boumhal, 2097, Tunisie</p>
+        <p className="p-opensans">9 Ave Med Najjar, Boumhal, 2097, Tunisia</p>
         <p className="p-opensans">+216 22-344-123</p>
         <p className="p-opensans">+216 22-555-123</p>
       </div>
